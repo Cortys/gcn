@@ -1,9 +1,6 @@
 from gcn.layers import *
 from gcn.metrics import *
-
-flags = tf.app.flags
-FLAGS = flags.FLAGS
-
+from gcn.flags import FLAGS
 
 class Model(object):
     def __init__(self, **kwargs):
